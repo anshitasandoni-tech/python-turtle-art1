@@ -2,6 +2,7 @@ import turtle
 
 t = turtle.Turtle()
 s = turtle.Screen()
+s.tracer(2)
 
 colors = ['orange','red','magenta','blue','magenta','yellow','green','cyan','purple']
 
@@ -15,5 +16,5 @@ for x in range(360):
     t.forward(x)
     t.right(59)
 
-turtle.hideturtle()
+t.hideturtle()
 turtle.done()
