@@ -1,7 +1,7 @@
 import turtle
 t = turtle.Turtle()
 t.screen.bgcolor('black')
-t.speed(1)
+t.speed(0)
 t.pensize(2)
 
 color = ['pink','hotpink','deeppink','palevioletred']
